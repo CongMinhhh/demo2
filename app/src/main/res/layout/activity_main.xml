@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@color/colorPrimaryDark">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:text="Welcome to Congminh"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Dưới nắng, hoa nở rộ trên cánh đồng xanh. Chim hót trên cành, gió thoảng qua, làm lay cánh hoa. Bầu trời xanh, ngày đẹp như tranh."
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"></LinearLayout>
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonstylepink"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"/>
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonstyle2"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join the club"/>
+        </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="CongMinh"/>
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="21115053120334"
+            android:inputType="textPassword"/>
+        <Button
+            android:drawableRight="@drawable/baseline_send_24"
+            android:layout_marginTop="40dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:text="Login In"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>
